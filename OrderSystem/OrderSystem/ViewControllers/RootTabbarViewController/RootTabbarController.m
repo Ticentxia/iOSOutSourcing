@@ -31,9 +31,9 @@
 
 - (void)configureTabbarItems {
     
-    MainViewController *viewController_0 = [[MainViewController alloc] init];
-    CircleViewController *viewController_1 = [[CircleViewController alloc] init];
-    PersonViewController *viewController_2 = [[PersonViewController alloc] init];
+    MainViewController *viewController_0 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"MainViewController"];
+    CircleViewController *viewController_1 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CircleViewController"];
+    PersonViewController *viewController_2 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"PersonViewController"];
     
     UINavigationController *viewController0 = [[UINavigationController alloc] initWithRootViewController:viewController_0];
     UINavigationController *viewController1 = [[UINavigationController alloc] initWithRootViewController:viewController_1];
