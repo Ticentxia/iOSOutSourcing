@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE473BBD1C28286500695334 /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE473BBC1C28286500695334 /* TaskViewController.m */; };
 		BE6D77791C267476002FC3DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6D77781C267476002FC3DF /* main.m */; };
 		BE6D777C1C267476002FC3DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6D777B1C267476002FC3DF /* AppDelegate.m */; };
 		BE6D77821C267476002FC3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE6D77801C267476002FC3DF /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE473BBB1C28286500695334 /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		BE473BBC1C28286500695334 /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
 		BE6D77741C267476002FC3DF /* OrderSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6D77781C267476002FC3DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE6D777A1C267476002FC3DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE473BBA1C28284700695334 /* TaskViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE473BBB1C28286500695334 /* TaskViewController.h */,
+				BE473BBC1C28286500695334 /* TaskViewController.m */,
+			);
+			name = TaskViewController;
+			sourceTree = "<group>";
+		};
 		BE6D776B1C267476002FC3DF = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +163,7 @@
 		BED82F811C267BD000ADE2C7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BE473BBA1C28284700695334 /* TaskViewController */,
 				BED82F821C267BD000ADE2C7 /* CircleViewController */,
 				BED82F851C267BD000ADE2C7 /* MainViewController */,
 				BED82F881C267BD000ADE2C7 /* PersonViewController */,
@@ -328,6 +341,7 @@
 				BED82F901C267BD000ADE2C7 /* PersonViewController.m in Sources */,
 				BE6D777C1C267476002FC3DF /* AppDelegate.m in Sources */,
 				BED82F8E1C267BD000ADE2C7 /* CircleViewController.m in Sources */,
+				BE473BBD1C28286500695334 /* TaskViewController.m in Sources */,
 				BED82F911C267BD000ADE2C7 /* RootTabbarController.m in Sources */,
 				BE6D77791C267476002FC3DF /* main.m in Sources */,
 				BED82F8F1C267BD000ADE2C7 /* MainViewController.m in Sources */,
